@@ -1,0 +1,63 @@
+h1{
+	text-align:center;
+	margin-bottom:20px;
+}
+#wrapper{
+	display:flex
+}
+
+#splitLeft{
+	width:50%;
+	justify-content:center;
+
+}
+#splitRight{
+	width:50%;
+	justify-content:center;
+}
+#chichi1Container {
+	width:100%;
+	height:300px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#chichi1 {
+	height: 100%;
+	display:block;
+}
+
+#mia1Container {
+	width:100%;
+	height:300px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#mia1 {
+	height: 100%;
+	display:block;
+}
+#navigation {
+	width:100%;
+	height:25px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+h2 {
+	text-align:center;
+}
+
+p {
+	text-align: center;
+	overflow-y: scroll;
+	overflow-x; hidden;
+	max-height:200px;
+}
