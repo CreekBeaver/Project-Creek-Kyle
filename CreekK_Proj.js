@@ -19,8 +19,8 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 3000);
-//app.set('port', process.argv[2]);
+//app.set('port', 3000);
+app.set('port', process.argv[2]);
 
 // Target the View's folder to ensure the path is correct.
 app.set('views', path.join(__dirname, '/views'))
